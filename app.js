@@ -1,18 +1,18 @@
-// Example data for timeline items
+// Timeline data
 const timelineData = [
     {
       date: "May 1, 2023",
       time: "10:00 AM",
       title: "Project A",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      image: "project-a.jpg"
+      image: "images/crown.jpg"
     },
     {
       date: "May 5, 2023",
       time: "2:30 PM",
       title: "Project B",
       description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      image: "project-b.jpg"
+      image: "images/srt.jpg"
     },
     // Add more timeline items as needed
   ];
@@ -38,12 +38,20 @@ const timelineData = [
     timelineContent.appendChild(timelineDate);
   
     const timelineTitle = document.createElement("h3");
+    timelineTitle.classList.add("timeline-title");
     timelineTitle.textContent = item.title;
     timelineContent.appendChild(timelineTitle);
   
     const timelineDescription = document.createElement("p");
+    timelineDescription.classList.add("timeline-description");
     timelineDescription.textContent = item.description;
     timelineContent.appendChild(timelineDescription);
+  
+    const readMoreButton = document.createElement("a");
+    readMoreButton.classList.add("read-more");
+    readMoreButton.href = "#";
+    readMoreButton.textContent = "Read More";
+    timelineContent.appendChild(readMoreButton);
   
     timelineItem.appendChild(timelineContent);
   
