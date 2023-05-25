@@ -1,0 +1,79 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 100px 0;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Timeline section styles */
+  .timeline {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    float: right;
+    width: 70%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Social icons section styles */
+  .social-icons {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Add styling for social icons */
+  .social-icons a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Add additional CSS to customize the look and feel of your landing page */
+  
